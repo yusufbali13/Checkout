@@ -9,14 +9,14 @@ body {
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(14, 174, 87, 1) 0%,
-    rgba(12, 116, 117, 1) 90%
+    /* rgba(12, 116, 117, 1) 90% */
   );
 }
 .container {
   /* display: flex;
   flex-direction: column; */
   justify-content: start;
-  background-color: rgb(26, 194, 223);
+  background-color: lightgrey;
   width: 90%;
   max-width: 400px;
   border-radius: 20px;
@@ -62,7 +62,7 @@ img {
 .plus {
   width: 15px;
   border-radius: 2px;
-  background-color: rgb(120, 152, 221);
+  background-color: rgb(139, 153, 170);
 }
 .calc {
   display: flex;
@@ -75,12 +75,12 @@ img {
   display: flex;
   justify-content: space-between;
   width: 350px;
-  border-top: 1.5px solid rgb(83, 124, 212);
+  border-top: 1.5px solid rgb(139, 153, 170);
   margin-bottom: 0.5rem;
 }
 
 .btn-remove {
-  background-color: rgb(120, 152, 221);
+  background-color: rgb(139, 153, 170);
   border-radius: 5px;
   padding: 3px;
 }
